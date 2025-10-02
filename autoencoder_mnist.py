@@ -38,7 +38,7 @@ class Autoencoder(nn.Module):
         )
     def forward(self, x):
         z = self.encoder(x)
-        out = self.decoder(z)
+        out = self.decoder(x)
         return out
 
 # =====================
