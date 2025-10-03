@@ -12,7 +12,7 @@ import os
 params = {
     'batch_size': 128,
     'epochs': 10,
-    'learning_rate': 1e-3,
+    'learning_rate': 1e3,
     'latent_dim': 10,
     'device': 'cuda' if torch.cuda.is_available() else 'cpu'
 }
